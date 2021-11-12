@@ -56,11 +56,40 @@ body {
   color: var(--white-color);
   background-color: var(--accent-text-color);
 }
-
-/*--------------------------------------------------logo-----------------------------------*/
-.link-logo:hover {
-  color: var(--accent-text-color);
+.container {
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
+
+/* ------------------------------------------------header---------------------------------*/
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: o auto;
+}
+.header-navigation {
+  display: flex;
+  align-items: center;
+}
+.header-list {
+  display: flex;
+  align-items: center;
+}
+.header-list-direction {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.site-header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+/*--------------------------------------------------logo-----------------------------------*/
+
 .nav .link-logo {
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -69,14 +98,15 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
 }
-
 .accent-logo {
   color: var(--accent-text-color);
 }
 .part-logo {
   color: var(--secondary-logo-color);
 }
-
+.link-logo {
+  margin-right: 93px;
+}
 /*------------------------------------------------navigation----------------------------------*/
 .list-nav .link {
   color: var(--secondary-text-color);
@@ -84,6 +114,12 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+.item-nav {
+  margin-right: 50px;
+}
+.item-nav:last-child {
+  margin-right: 0;
 }
 .current.link {
   color: var(--accent-text-color);
@@ -104,12 +140,17 @@ body {
 .list-direction .link:focus {
   color: var(--accent-text-color);
 }
-
+.item-direction {
+  margin-right: 50px;
+}
+.item-direction:last-child {
+  margin-right: 0;
+}
 /*------------------------------------------------hero----------------------------------*/
 .hero {
   background-color: var(--background-accent-color);
-  text-align: center;
-  margin-bottom: 94px;
+  /* text-align: center;
+  margin-bottom: 94px; */
 }
 .hero-title {
   color: var(--white-color);
@@ -135,7 +176,7 @@ body {
 /*------------------------------------------------Benefits----------------------------------*/
 
 .benefits {
-  margin-bottom: 94px;
+  /* margin-bottom: 94px; */
 }
 .benefits .title {
   font-weight: 700;
@@ -153,7 +194,7 @@ body {
 }
 /*------------------------------------------------work----------------------------------*/
 .work {
-  margin-bottom: 94px;
+  /* margin-bottom: 94px; */
 }
 .work .title {
   font-weight: 700;
@@ -166,8 +207,8 @@ body {
 }
 /*------------------------------------------------team----------------------------------*/
 .team .title {
-  margin-bottom: 50px;
-  padding-top: 94px;
+  /* margin-bottom: 50px;
+  padding-top: 94px; */
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -254,9 +295,4 @@ body {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-}
-.container {
-  width: 1170px;
-  padding-left: 15px;
-  padding-right: 15px;
 }
