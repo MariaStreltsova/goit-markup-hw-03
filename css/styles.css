@@ -6,6 +6,7 @@
   --background-aditional-color: #f5f4fa;
   --background-accent-color: #2f303a;
   --secondary-logo-color: #000000;
+  --header-border-color: #ececec;
 }
 html {
   box-sizing: border-box;
@@ -85,6 +86,7 @@ body {
   margin-left: auto;
 }
 .site-header {
+  border-top: 1px solid var(--header-border-color);
   padding-top: 24px;
   padding-bottom: 25px;
 }
