@@ -7,6 +7,7 @@
   --background-accent-color: #2f303a;
   --secondary-logo-color: #000000;
   --header-border-color: #ececec;
+  --border-color: #eeeeee;
 }
 html {
   box-sizing: border-box;
@@ -67,6 +68,10 @@ body {
 }
 .title-container {
   margin-bottom: 50px;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 /* ------------------------------------------------header---------------------------------*/
@@ -187,8 +192,7 @@ body {
   color: var(--white-color);
 }
 /*------------------------------------------------Benefits----------------------------------*/
-
-.benefits .title {
+.benefits-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -202,12 +206,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.benefits-container {
-  padding-top: 94px;
-}
-.benefits-title {
-  margin-bottom: 10px;
-}
+
 .list-benefits {
   display: flex;
   flex-wrap: wrap;
@@ -218,9 +217,7 @@ body {
   margin-left: 30px;
 }
 /*------------------------------------------------work----------------------------------*/
-.work-container {
-  padding-top: 94px;
-}
+
 .work .title {
   font-weight: 700;
   font-size: 36px;
@@ -242,9 +239,6 @@ body {
   margin-top: 30px;
 }
 /*------------------------------------------------team----------------------------------*/
-.team {
-  padding-bottom: 94px;
-}
 .team .title {
   font-weight: 700;
   font-size: 36px;
@@ -271,10 +265,6 @@ body {
   display: block;
   max-width: 100%;
   height: auto;
-}
-.team-container {
-  margin: auto;
-  padding-top: 94px;
 }
 .list-team {
   display: flex;
@@ -401,9 +391,9 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 24px;
-  border-bottom: 1px solid #eeeeee;
-  border-left: 1px solid #eeeeee;
-  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid var(--border-color);
+  border-left: 1px solid var(--border-color);
+  border-right: 1px solid var(--border-color);
 }
 .title-projects {
   margin-bottom: 4px;
