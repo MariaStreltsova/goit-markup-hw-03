@@ -163,7 +163,7 @@ body {
 .hero {
   background-color: var(--background-accent-color);
   padding-top: 200px;
-  padding-bottom: 280px;
+  padding-bottom: 200px;
 }
 .hero-title {
   color: var(--white-color);
@@ -183,6 +183,7 @@ body {
 .button-hero {
   display: block;
   margin: 0 auto;
+  font-weight: 700;
   min-width: 200px;
   min-height: 50px;
   border-radius: 4px;
